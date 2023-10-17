@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgba(14, 216, 28, 0.996);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.537),rgba(0, 0, 0, 0.742)) ,url(img/grass.jpg);
+}
+.navbar {
+    height: 10vh;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.537),rgba(0, 0, 0, 0.742)) ,url(img/background1.jpg);
+    background-size: cover;
+    background-position: top;
+    border: solid;
+    border-bottom-color: rgb(65, 61, 61);
+    color: transparent;
+}
+.logo {
+    width: 200px;
+    cursor: pointer;
+    left: 15px;
+    
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    transform: translateY(-100%);
+    top: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fffffff9;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.main{
+    margin-top: 10px;
+    border: solid;
+    border-radius: 50px;
+    height: 32vh;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.format{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -90px;
+}
+input[type=text]{
+    padding: 10px 150px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 50px;
+}
+button{
+
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-left: 45px;
+    background-color: rgb(7, 87, 18);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.f0oter {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: solid;
+    color: transparent;
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.pooper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:green
+}
+.login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    color:grey;
+    border: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.loginform{
+    margin-top: 10px;
+}
+.loginimg{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointe;
+}
+input[type=password]{
+    padding: 10px 150px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.806);
+    border-radius: 50px;
+}
