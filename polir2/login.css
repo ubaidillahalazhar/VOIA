@@ -18,7 +18,7 @@ body{
     background-size: cover;
     background-position: top;
     border: solid;
-    border-bottom-color: rgb(65, 61, 61);
+    border-bottom-color: rgb(7, 87, 18);
     color: transparent;
 }
 .logo {
@@ -61,7 +61,7 @@ body{
     background-color: rgb(255, 255, 255);
     color: gray;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 600px;
 }
 .format{
     text-align: center;
@@ -110,7 +110,7 @@ button{
     color:grey;
     border: solid;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 600px;
 }
 .loginform{
     margin-top: 10px;
@@ -118,11 +118,41 @@ button{
 .loginimg{
     margin-top: 50px;
     margin-bottom: 50px;
-    cursor: pointe;
 }
 input[type=password]{
     padding: 10px 150px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.806);
     border-radius: 50px;
+}
+.frame-container {
+    position: absolute;
+    top: 21.5vh; /* Add top margin to push it below the navbar */
+    bottom: 0vh;
+    right: 0;
+    width: 500px; /* Adjust the width as needed */
+    height: 85.8vh;
+    background-color: grey;
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 30fr;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+/* Style for the frame cells */
+.frame-cell {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: white;
+}
+.frame-cell ul {
+    padding-left: 20px; /* Adjust the padding to move the bullets to the right */
+}
+.close-button {
+    position: absolute;
+    top: -30px;
+    right: -5px;
+    cursor: pointer;
 }
