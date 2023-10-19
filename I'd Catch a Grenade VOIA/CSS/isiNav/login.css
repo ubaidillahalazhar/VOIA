@@ -234,7 +234,7 @@ input[type=password]{
 }
 .frame-container {
    position: absolute;
-   top: 16.5vh; /* Add top margin to push it below the navbar */
+   top: 5vh; /* Add top margin to push it below the navbar */
    bottom: 0vh;
    right: 0;
    width: 500px; /* Adjust the width as needed */
