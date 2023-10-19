@@ -14,7 +14,6 @@ body{
    background: linear-gradient(to bottom, #22ff6f, #38af01, #34ff6e);
 }
 .wrapper{
-   
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -28,14 +27,12 @@ body{
 .brand>img:hover{
    width: 170px;
    transition:all ease-in-out 0.3s;
-
 }
 .navigation{
    display: flex;
    justify-content: center;
    align-items: center;
 }
-
 .navigation>li {
    list-style-type: none;
    padding: 15px;
@@ -90,7 +87,7 @@ body{
    margin-top: 10px;
    border: solid;
    border-radius: 50px;
-   height: 32vh;
+   height: 37vh;
    background-color: rgb(255, 255, 255);
    color: #760076;
    margin-left: 50px;
@@ -111,7 +108,7 @@ button{
 
    padding: 5px 20px;
    border-radius: 50px;
-   margin-left: 45px;
+   margin-left: 25px;
    background-color: #760076;
    color: white;
    font-size: 15px;
@@ -234,10 +231,10 @@ input[type=password]{
 }
 .frame-container {
    position: absolute;
-   top: 5vh; /* Add top margin to push it below the navbar */
+   top: 5vh;
    bottom: 0vh;
    right: 0;
-   width: 500px; /* Adjust the width as needed */
+   width: 500px;
    height: 83.5vh;
    background-color: #760076;
    border: 2px solid #760076;
@@ -247,18 +244,19 @@ input[type=password]{
    padding: 4px;
    margin-right: 50px;
 }
-
-/* Style for the frame cells */
 .frame-cell {
    border: 1px solid #000;
    padding: 10px;
    background-color: white;
 }
 .frame-cell ul {
-   padding-left: 10px; /* Adjust the padding to move the bullets to the right */
+   padding-left: 10px;
 }
 .close-button {
    position: absolute;
    top: -30.5px;
    right: -5px;
+}
+.buttonspace {
+   margin-top: 20px;
 }
