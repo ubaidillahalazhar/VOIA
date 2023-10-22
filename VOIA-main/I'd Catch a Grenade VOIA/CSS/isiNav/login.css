@@ -1,0 +1,261 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+   background-color: #62dd54;
+}
+.fContainer{
+   display: flex;
+   width: 100%;
+   height: vh;
+   background: #62dd54;
+}
+.wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+   font-size: 20px;
+   width: 10000px;
+   height: 80px;
+   background-color: #760076;
+   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.7);
+}
+.brand>img:hover{
+   width: 170px;
+   transition:all ease-in-out 0.3s;
+}
+.navigation{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navigation>li {
+   list-style-type: none;
+   padding: 15px;
+}
+
+.navigation > li > a{
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+.navigation>li>a:hover{
+   color: #22aa00;
+   transition: all ease-in-out 0.3s;
+}
+
+.navigation>li>img{
+   width: 150px;
+   height: 100px;
+}
+.active{
+   background-color: #62dd54;
+   padding: 15px;
+}
+.navbar ul li {
+   list-style: none;
+   display: inline-block;
+   margin: 20px;
+   position: relative;
+   transform: translateY(-100%);
+   top: 15px;
+}
+.navbar ul li a{
+   text-decoration: none;
+   color: rgb(248, 248, 248);
+   text-transform: uppercase;
+}
+.navbar ul li::after{
+   content: '';
+   height: 3px;
+   width: 0;
+   background: #fffffff9;
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+}
+.navbar ul li:hover::after{
+   width: 100%;
+   transition: 1s;
+}
+.main{
+   margin-top: 10px;
+   border: solid;
+   border-radius: 50px;
+   height: 37vh;
+   background-color: rgb(255, 255, 255);
+   color: #760076;
+   margin-left: 50px;
+   margin-right: 600px;
+}
+.format{
+   text-align: center;
+   margin-top: 30px;
+   margin-left: -90px;
+}
+input[type=text]{
+   padding: 10px 150px;
+   text-align: left;
+   background-color: rgba(255, 255, 255, 0.806);
+   border-radius: 50px;
+}
+button{
+
+   padding: 5px 20px;
+   border-radius: 50px;
+   margin-left: 25px;
+   background-color: #760076;
+   color: white;
+   font-size: 15px;
+   cursor: pointer;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900,&display=swap');
+
+
+html{
+   height: 100%;
+   background-color: #62dd54;
+}
+
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: inherit;
+}
+
+
+body{
+   display: flex;
+   flex-direction: column;
+   font-family: "Poppins", sans-serif;
+   min-height: 100%;
+}
+
+
+h1{
+   margin-bottom: 25px;
+}
+
+
+p{
+   margin-bottom: 15px;
+}
+
+
+a{
+   text-decoration: none;
+}
+
+.content {
+   width: 94%;
+   margin: 0 auto;
+   padding-top: 32px;
+}
+
+footer{
+   background-color: rgb(158, 78, 233);
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 10px;
+   margin-top: auto;
+}
+
+footer li{
+   list-style: none;
+   display: inline-block;
+   margin: 10px;
+}
+
+.footer-icons a{
+   background-color: rgb(3, 60, 3);
+   color: rgb(135, 254, 121);
+   padding: 15px;
+   border-radius: 100px;
+   display: flex;
+   font-size: 25px;
+}
+
+.footer-icons a:hover{
+   color: rgb(178, 7, 178);
+}
+
+.footer-menu a{
+   color: #fff;
+}
+
+.footer-menu a:hover{
+   color: #16de00;
+}
+
+.footer-copyright{
+   color: white;
+   background-color:#760076;
+   ;
+   padding: 15px;   
+   margin-top: 30px; 
+}
+
+.footer-copyright p{
+   margin-bottom: 0px;
+}
+.login{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: white;
+   border-radius: 50px;
+   text-align: center;
+   color:#760076;
+   border: solid;
+   margin-left: 50px;
+   margin-right: 600px;
+}
+.loginform{
+   margin-top: 10px;
+}
+.loginimg{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+input[type=password]{
+   padding: 10px 150px;
+   text-align: left;
+   background-color: rgba(255, 255, 255, 0.806);
+   border-radius: 50px;
+}
+.frame-container {
+   position: absolute;
+   top: 5vh;
+   bottom: 0vh;
+   right: 0;
+   width: 500px;
+   height: 83.5vh;
+   background-color: #760076;
+   border: 2px solid #760076;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 2fr 30fr;
+   padding: 4px;
+   margin-right: 50px;
+}
+.frame-cell {
+   border: 1px solid #000;
+   padding: 10px;
+   background-color: white;
+}
+.frame-cell ul {
+   padding-left: 10px;
+}
+.close-button {
+   position: absolute;
+   top: -30.5px;
+   right: -5px;
+}
+.buttonspace {
+   margin-top: 20px;
+}
